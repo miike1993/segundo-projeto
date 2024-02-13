@@ -135,7 +135,7 @@ body {
 .rodape__logo{
 
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .rodape__lista{
@@ -148,9 +148,15 @@ body {
 
 .lista__link{
 
-    margin-right: 10px;
+    /*margin-right: 10px;
     list-style-type: none;
     text-decoration: none;
+    color: var(--branco-principal);*/
+ 
+    list-style-type: none;
+    text-decoration: none; /* Removerá o sublinhado dos links */
+    color: var(--branco-principal);
+    margin-right: 10px;
 }
 
 .rodape__texto{
